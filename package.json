@@ -1,0 +1,33 @@
+{
+  "name": "typescript-api-example",
+  "version": "1.0.0",
+  "description": "This is an example of a typescript based API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "build": "tsc",
+    "dev": "nodemon src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cbuchele/Typescript-API-Example.git"
+  },
+  "keywords": [
+    "typescript",
+    "api"
+  ],
+  "author": "cbuchele",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cbuchele/Typescript-API-Example/issues"
+  },
+  "homepage": "https://github.com/cbuchele/Typescript-API-Example#readme",
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.13.10",
+    "express": "^4.21.2",
+    "nodemon": "^3.1.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2"
+  }
+}
